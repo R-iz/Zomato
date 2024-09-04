@@ -119,6 +119,11 @@ header{
     justify-content: center;
     margin-bottom: 13vh;
 }
+.sec-1 .box li{
+    list-style: none;
+    padding: 5px 10px;
+    text-align: center;
+}
 .box{
     position: relative;
     width: 265px;
@@ -134,13 +139,13 @@ header{
     border: 1px solid rgb(204,203,203);
     z-index: -1;
 }
-.box li a{
+.box li a {
     font-size: 20px; 
     font-weight: bold; 
     font-family: Arial, sans-serif; 
     color: black; 
     text-decoration: none; 
-}
+  }
 .white{
     position: absolute;
     bottom: 3px;
